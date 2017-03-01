@@ -263,7 +263,7 @@ section .container{
     margin-top: 10px;
 }
 .rt-menu-content .singer-wrap .text-intro div{
-    width: 184px;
+    width: 100px;
     height: 40px;
     border-radius: 2px;
     background: #000000;
@@ -357,7 +357,10 @@ section .container{
     margin-left: 30px;
 }
 .line span:nth-of-type(2){
-    margin-left: 100px;
+   
+    position:absolute;
+    left:200px;
+    line-height:25px;
 }
 .line b{
     line-height: 35px;
@@ -547,7 +550,15 @@ section .container{
     margin-left: 20px;
     font-size: 8px;
     color: #ada8a8;
-    margin-right: 80px;
+    position:absolute;
+    left:160px;
+    line-height:55px;
+   /*  margin-right: 80px; */
+}
+.right-bottom-content ul li span:nth-of-type(2){
+	 position:absolute;
+    left:280px;
+    top:10px;
 }
 
 .right-bottom-content li .red{
